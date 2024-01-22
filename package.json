@@ -1,0 +1,40 @@
+{
+  "name": "svelte-polaroid",
+  "version": "1.0.0",
+  "description": "Component that renders a list of images as swipeable polaroids.",
+  "homepage": "https://github.com/tylerb1/svelte-polaroid",
+  "bugs": {
+    "url": "https://github.com/tylerb1/svelte-polaroid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerb1/svelte-polaroid.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "index.js",
+  "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w"
+  },    
+  "keywords": [
+    "svelte",
+    "image",
+    "picture",
+    "photo",
+    "polaroid",
+    "swipe",
+    "swipeable"
+  ],
+  "author": "tylerb1 <whb0010@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.6",
+    "rollup-plugin-svelte": "^7.1.6",
+    "svelte": "^4.2.9"
+  },
+  "dependencies": {
+    "interactjs": "^1.10.26"
+  }
+}
